@@ -93,11 +93,4 @@ orden          → id_orden (PK), rut (FK), id_direccion (FK), precio_total
 lista_productos → id_lista (PK), id_orden (FK), id_producto (FK), cantidad_producto
 despachos      → id_despacho (PK), id_orden (FK), id_direccion (FK)
 ```
-## 📥 Clonar el repositorio
-```bash
-git clone https://github.com/tu-usuario/nombre-del-repositorio.git
-cd nombre-del-repositorio
-npm install
-```
 
-Luego edita el archivo `.env` con tus credenciales de PostgreSQL y ejecuta `npm start`.
